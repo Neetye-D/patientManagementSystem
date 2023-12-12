@@ -1,0 +1,12 @@
+#appointment-form-container {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+#appointment-form-container.show {
+    opacity: 1;
+    max-height: 1000px; /* Adjust this value based on your form's height */
+}
+

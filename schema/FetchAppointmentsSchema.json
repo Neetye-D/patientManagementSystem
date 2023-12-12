@@ -1,0 +1,39 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "appointment_id": {
+        "type": "integer"
+      },
+      "patient_id": {
+        "type": "integer"
+    
+      },
+      "appointment_description": {
+        "type": "string"
+ 
+      },
+      "duration_in": {
+        "type": "integer"
+
+      },
+      "appointment_datetime": {
+        "type": "string"
+      },
+      "diagnosis": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "appointment_id",
+      "patient_id",
+      "appointment_description",
+      "duration_in",
+      "appointment_datetime",
+      "diagnosis"
+    ],
+    "additionalProperties": false
+  }
+}
